@@ -1,0 +1,276 @@
+nav {
+    background-color: #ff9ec4;
+    padding :20px;
+    border-bottom: 3px solid #d63384;
+    text-align: center;
+}
+nav h2{
+    display : inline;
+    margin-rigth : 50px;
+}
+nav a {
+    color: white;
+    text-decorate: none;
+    margin-rigth :0  20px;
+    font-weight: bold;
+}
+.container{
+    background-color: white;
+    border : 2px solid #d63384;
+    padding: 30px;
+    margin: 40px auto;
+    max-width:800px;
+    text-align: center;
+}
+#title{
+    color: #d63384;
+    font-size: 40px;
+    margin-buttom: 10px;
+    text-align: center;
+}
+.description{
+    color:rgb(156,39,107);
+    font-size:20px;
+    margin-bottom:30px;
+    text-align: center;
+}
+button{
+    background-color: #d63384;
+    color:white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    display:block;
+    margin:20px auto;
+}
+.items{
+    background-color: white;
+    border: 2ps solid #ff9ec4;
+    padding: 25px;
+    margin: 30px auto;
+    max-width:800px;
+    text-align: center;
+    border-radius: 12px;
+    
+}
+.contact{
+    background-color:white ;
+    border:2px solid #ff9ecf;
+    padding:25px;
+    margin: 30px auto;
+    max-width: 800px;
+    text-align: center;
+     border-radius: 12px;
+}
+.contact h2{
+    color: #d63384;
+}
+body{
+    background-image: url("ctu main picture.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   }
+footer{
+    background-color: #ff9ec4;
+    color:white;
+    text-align: center;
+    padding:15px;
+    margin-top: 30px;
+}
+.item-nav{
+    margin-bottom: 20px;
+}
+.item-nav a{
+    color:#d63384;
+    text-decoration:none;
+    margin:0 15px;
+    font-weigth:bold;
+}.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-title img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
+
+.logo-title h2 {
+    font-size: 24px;
+    color: #8d2e4b;
+}nav {
+    background-color: #8B0000;
+    border-bottom: 4px solid #D4AF37;
+}
+
+.container {
+    background-color: #D3D3D3;
+    border: 2px solid #8B0000;
+}
+
+.logo-title h2 {
+    color: #D4AF37;
+}nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 30px;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: #8B0000;
+    border-bottom: 4px solid #D4AF37;
+    padding: 15px 25px;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-title img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.logo-title h2 {
+    color: #D4AF37;
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 12px;
+    border-radius: 6px;
+    transition: background-color 0.4s, color 0.4s,
+                transform 0.4s;
+}
+
+.nav-links a:hover {
+    background-color: #D4AF37;
+    color: #8B0000;
+    transform: translateY(-3px);
+}
+
+.logo-title h2 {
+    animation: titleGlow 2s ease-in-out infinite alternate;
+}
+
+@keyframes titleGlow {
+    from {
+        text-shadow: 0 0 2px #D4AF37;
+    }
+    to {
+        text-shadow: 0 0 12px #D4AF37;
+    }
+}body {
+    background-color: #8B0000;
+}
+
+.container {
+    background-color: #D3D3D3;
+    border: 3px solid #D4AF37;
+}
+
+h1 {
+    color: #8B0000;
+}
+
+p {
+    color: #555555;
+}
+
+button {
+    background-color: #8B0000;
+    color: #FFFFFF;
+    border: 2px solid #D4AF37;
+    transition: background-color 0.4s, transform 0.4s;
+}
+
+button:hover {
+    background-color: #D4AF37;
+    color: #8B0000;
+    transform: translateY(-3px);
+}
+
+
+footer {
+    background-color: #8B0000;
+    color: #FFFFFF;
+    border-top: 4px solid #D4AF37;
+    border: 2px solid #D4AF37;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 1000px;
+}
+.container h1 {
+    color: #8B0000;
+}
+
+.container p {
+    color: #444444;
+}
+
+footer {
+    background-color: #8B0000;
+    color: #FFFFFF;
+    border-top: 4px solid #D4AF37;
+    padding: 20px;
+    text-align: center;
+}footer p {
+    color: white !important;
+}@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+@keyframes fadeSlideIn {
+  from { opacity: 0; transform: translateY(-30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.logo-title {          /* imong "Lost & Found" title */
+  animation: fadeSlideIn 1.5s ease-out;
+}
+
+.report-btn {          /* imong "Report an Item" button */
+  animation: pulse 5s infinite;
+}

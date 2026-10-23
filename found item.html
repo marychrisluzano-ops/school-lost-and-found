@@ -1,0 +1,151 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Found Items - School Lost and Found</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eeeeee;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: auto;
+            background-color: white;
+            padding: 25px;
+            border: 3px solid #D4AF37;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #8B0000;
+        }
+
+        p {
+            text-align: center;
+            color: #555555;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            box-sizing: border-box;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 20px;
+            background-color: #8B0000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #D4AF37;
+            color: black;
+        }
+
+        .note {
+            background-color: #fff5d6;
+            padding: 12px;
+            border-left: 4px solid #D4AF37;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        .back {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #8B0000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Report a Found Item</h1>
+        <p>Found something in school? Help return it to its owner!</p>
+
+        <form>
+
+            <label for="itemName">Item Name</label>
+            <input type="text" id="itemName"
+                   placeholder="Example: Black Wallet" required>
+
+            <label for="category">Category</label>
+            <select id="category" required>
+                <option value="">Select Category</option>
+                <option>Wallet</option>
+                <option>Phone</option>
+                <option>School ID</option>
+                <option>Bag</option>
+                <option>Keys</option>
+                <option>Jewelry</option>
+                <option>Other</option>
+            </select>
+
+            <label for="color">Color</label>
+            <select id="color" required>
+                <option value="">Select Color</option>
+                <option>Black</option>
+                <option>White</option>
+                <option>Red</option>
+                <option>Blue</option>
+                <option>Brown</option>
+                <option>Other</option>
+            </select>
+
+            <label for="location">Where Was It Found?</label>
+            <input type="text" id="location"
+                   placeholder="Example: School Library" required>
+
+            <label for="date">Date Found</label>
+            <input type="date" id="date" required>
+
+            <label for="description">Item Description</label>
+            <textarea id="description" rows="4"
+                      placeholder="Describe the item and its unique marks..."
+                      required></textarea>
+
+            <label for="photo">Upload Item Photo</label>
+            <input type="file" id="photo" accept="image/*">
+
+            <div class="note">
+                <strong>Safety Reminder:</strong>
+                Keep some identifying details private.
+                Ask the claimant to describe the item
+                to help verify that it belongs to them.
+            </div>
+
+            <button type="submit">Submit Found Item</button>
+
+        </form>
+
+        <a class="back" href="./LUZANO.MC.html">Back to Home</a>
+
+</body>
+</html>
